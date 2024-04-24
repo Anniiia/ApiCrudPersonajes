@@ -66,5 +66,10 @@ namespace ApiCrudPersonajes.Repositories
             return personajes;
         }
 
+        //public async Task<int> GetMaximoId()
+        //{ 
+        //    return  this.context.Personajes.Max(e => e.IdPersonaje);
+        //}
+
     }
 }
